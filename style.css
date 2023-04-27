@@ -11,7 +11,7 @@ body {
 }
 
 header {
-  background-color: #25b79f;
+  background-color: #4949ab;
   height: 100vh;
 }
 
@@ -47,13 +47,13 @@ header {
 
 .menu-items a {
   text-decoration: none;
-  color: #f0f0e6;
+  color: #000000;
   font-size: 1.2rem;
   padding: 0.3rem;
 }
 
 .menu-items a:hover {
-  border-bottom: 2px solid #f0f0e6;
+  border-bottom: 2px solid #ffff3c;
 }
 
 .navbar .logo {
@@ -69,7 +69,7 @@ header {
   top: 47%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: #07374a;
+  color: #1ed71e;
   width: 100%;
   text-align: center;
 }
@@ -80,7 +80,7 @@ header {
 }
 
 .home-content .name p {
-  color: #f0f0e6;
+  color: #000000;
   font-size: 1.5rem;
 }
 
@@ -90,20 +90,20 @@ header {
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 2rem;
-  border: 3px solid #07374a;
+  border: 3px solid #010507;
   border-radius: 50%;
 }
 
 .angle-down-icon a {
   text-decoration: none;
-  color: #07374a;
+  color: #01080a;
   padding: 1rem;
 }
 
 /* ////........About Me........//// */
 
 .about-me {
-  background-color: #07374a;
+  background-color: #572323;
   padding: 6rem 0;
 }
 
@@ -173,7 +173,7 @@ header {
   position: relative;
   height: 10px;
   width: 550px;
-  background: #f0f0f0;
+  background: #dd4e4e;
   border-radius: 10px;
   transform: scaleX(0);
   transform-origin: left;
@@ -182,7 +182,7 @@ header {
 
 .bar .progress-line span {
   position: absolute;
-  background: #25b79f;
+  background: #3db725;
   height: 100%;
   border-radius: 10px;
   transform: scaleX(0);
@@ -197,19 +197,19 @@ header {
 }
 
 .progress-line .html {
-  width: 80%;
+  width: 90%;
 }
 .progress-line .css {
-  width: 70%;
+  width: 60%;
 }
 .progress-line .bootstrap {
   width: 50%;
 }
 .progress-line .javascript {
-  width: 50%;
+  width: 60%;
 }
 .progress-line .c {
-  width: 50%;
+  width: 80%;
 }
 
 .bar .progress-line span::before {
@@ -269,7 +269,7 @@ header {
 
 .navbar-brand {
   display: none;
-  color: #f0f0e6;
+  color: #74746e;
   font-weight: 400;
 }
 
@@ -290,14 +290,14 @@ header {
 .work-arrow-2 a {
   font-size: 1rem;
   text-decoration: none;
-  color: #25b79f;
+  color: #3d64e4;
   display: none;
 }
 
 /* ////.....Portfolio......///// */
 
 .portfolio {
-  background: #25b79f;
+  background-color: #4949ab;
   padding: 6rem 0;
 }
 
@@ -317,10 +317,11 @@ header {
 
 .proj-1 img {
   height: 330px;
-  width: 380px;
-  object-fit: cover;
-  border-radius: 50%;
-  box-shadow: 0 20px 10px -10px rgb(37 41 52 / 31%);
+  width: 490px;
+  object-fit:cover;
+  border-color: #25b79f;
+  border-radius: 5%;
+  box-shadow: 0 30px 10px -10px rgb(37 41 52 / 31%);
   margin-right: 1.7rem;
 }
 
@@ -388,10 +389,11 @@ header {
 
 .proj-2 img {
   height: 330px;
-  width: 380px;
-  object-fit: cover;
-  border-radius: 50%;
-  box-shadow: 0 20px 10px -10px rgb(37 41 52 / 31%);
+  width: 490px;
+  object-fit:cover;
+  border-color: #25b79f;
+  border-radius: 5%;
+  box-shadow: 0 30px 10px -10px rgb(37 41 52 / 31%);
   margin-right: 1.7rem;
 }
 
@@ -472,7 +474,7 @@ header {
 /* ////......Contact......///// */
 
 .contact {
-  background: #07374a;
+  background: #572323;
   position: relative;
   height: 92vh;
 }
@@ -488,7 +490,7 @@ header {
 .contact-content h2 {
   font-size: 2.5rem;
   font-weight: 400;
-  color: #25b79f;
+  color: #71b41b;
   padding-bottom: 0.5rem;
 }
 
@@ -575,7 +577,7 @@ header {
   .work-arrow-2 a {
     font-size: 1.3rem;
     text-decoration: none;
-    color: #25b79f;
+    color: #baacf3;
     display: block;
     text-align: center;
   }

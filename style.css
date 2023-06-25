@@ -2,7 +2,7 @@
 
 * {
   margin: 0;
-  padding: 0; 
+  padding: 0;
   box-sizing: border-box;
 }
 
@@ -196,17 +196,20 @@ header {
   }
 }
 
+.progress-line .django {
+  width: 95%;
+}
 .progress-line .html {
   width: 90%;
 }
 .progress-line .css {
-  width: 60%;
+  width: 85%;
 }
 .progress-line .bootstrap {
-  width: 50%;
+  width: 75%;
 }
 .progress-line .javascript {
-  width: 60%;
+  width: 65%;
 }
 .progress-line .c {
   width: 80%;
@@ -238,17 +241,20 @@ header {
   border-radius: 3px;
 }
 
+.progress-line .django::after {
+  content: "95%";
+}
 .progress-line .html::after {
   content: "90%";
 }
 .progress-line .css::after {
-  content: "60%";
+  content: "85%";
 }
 .progress-line .bootstrap::after {
-  content: "50%";
+  content: "75%";
 }
 .progress-line .javascript::after {
-  content: "60%";
+  content: "65%";
 }
 .progress-line .c::after {
   content: "80%";

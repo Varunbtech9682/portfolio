@@ -239,19 +239,19 @@ header {
 }
 
 .progress-line .html::after {
-  content: "80%";
-}
-.progress-line .css::after {
   content: "90%";
 }
+.progress-line .css::after {
+  content: "60%";
+}
 .progress-line .bootstrap::after {
-  content: "75%";
+  content: "50%";
 }
 .progress-line .javascript::after {
-  content: "80%";
+  content: "60%";
 }
 .progress-line .c::after {
-  content: "88%";
+  content: "80%";
 }
 
 .navbar.solid {
